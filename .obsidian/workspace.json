@@ -1,0 +1,254 @@
+{
+  "main": {
+    "id": "fe4f1148acd0264a",
+    "type": "split",
+    "children": [
+      {
+        "id": "0584b3eb01a3be9e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "718018a48ca1d528",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新規タブ"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1be1ef628da7b0db",
+    "type": "split",
+    "children": [
+      {
+        "id": "6af84d8d2d742a8d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b1c24073e933514",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "e143880724673531",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"tags\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "e4a68121af164dfc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0412a64ce9439235",
+    "type": "split",
+    "children": [
+      {
+        "id": "812baaa8f4107e80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10b6ed7439889368",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Clippings/ObsidianとGitHubの連携手順.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "ObsidianとGitHubの連携手順へのバックリンク"
+            }
+          },
+          {
+            "id": "e57d70f524ccf8ef",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Clippings/ObsidianとGitHubの連携手順.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "ObsidianとGitHubの連携手順からのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "1326ef32c92509f3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "30b466b2a937212e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "すべてのプロパティ"
+            }
+          },
+          {
+            "id": "b7ebb71c6895df6b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Clippings/【個人向け】Notion × Obsidianで知識管理をとにかく楽に運用する.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "【個人向け】Notion × Obsidianで知識管理をとにかく楽に運用するのアウトライン"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 340.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "bases:Create new base": false,
+      "markdown-importer:Markdownインポーターを開く": false
+    }
+  },
+  "floating": {
+    "id": "cd12deff6fa7846e",
+    "type": "floating",
+    "children": [
+      {
+        "id": "7f994259a56a6d88",
+        "type": "window",
+        "children": [
+          {
+            "id": "237f57527b9fd297",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "50a3f551e79a8cc4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Clippings/ObsidianとGitHubの連携手順.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "ObsidianとGitHubの連携手順"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1920,
+        "y": 0,
+        "width": 1280,
+        "height": 1392,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "718018a48ca1d528",
+  "lastOpenFiles": [
+    "Clippings/ObsidianとGitHubの連携手順.md",
+    "Clippings/Notion × Obsidianで知識管理をとにかく楽に運用する.md",
+    "Git使い方.md",
+    "Files_Git使い方",
+    "Files_Git使い方/IMG-20260126014854348.png",
+    "Git使い方image",
+    "Git使い方image/IMG-20260126014727300.png",
+    "Git使い方/IMG-20260126014437705.png",
+    "Clippings/ObsidianとAndroid間で自動ファイル同期.md",
+    "Clippings/スマホのObsidianをGitで同期(2024.11).md",
+    "Clippings/バター・卵なし☆簡単豆乳チョコスコーン.md",
+    "Git使い方",
+    "Git使い方.png",
+    "SQL.md",
+    "無題のファイル.base",
+    "AndrondスマホとGithubの連携.md",
+    "Zenn.md",
+    "Marusankaku_E.md",
+    "Clippings",
+    "Pasted image 20260111204221.png",
+    "福井.md",
+    "Untitled.canvas",
+    "create a link.md",
+    "2026-01-06.md",
+    "無題のファイル.canvas",
+    "Welcome.md",
+    "2025-12-21.md",
+    "desktop.ini"
+  ]
+}
