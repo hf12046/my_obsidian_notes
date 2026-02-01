@@ -15,9 +15,8 @@ tags:
 3. [データの更新（UPDATE文）](https://qiita.com/e-tak/items/#4-%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E6%9B%B4%E6%96%B0update%E6%96%87)
 4. [データの削除（DELETE文）](https://qiita.com/e-tak/items/#5-%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E5%89%8A%E9%99%A4delete%E6%96%87)
 
-## 2\. データの抽出（SELECT文）
-データベースから必要なデータを取得するには\`SELECT\`文を使用して検索を行います。  
-例えば、以下のように書くことでテーブル\`users\`から全てのデータを取得できます。
+## 1\. データの抽出（SELECT文）
+以下のように書くことでテーブル`users`から全てのデータを取得できます。
 ```sql
 SELECT * FROM users;
 ```
@@ -27,7 +26,6 @@ SELECT * FROM users;
 SELECT name, email FROM users;
 ```
 
-ここでは `name` と `email` というカラムだけが返されます。  
 条件を絞るためには、 `WHERE` 句を使用します。
 ```sql
 SELECT * FROM users WHERE age >= 20;
@@ -36,9 +34,9 @@ SELECT * FROM users WHERE age >= 20;
 このクエリでは、age というカラムが20以上の場合のみ取得することができるので、  
 20歳以上のユーザーのみが取得できることになります。
 
-## 3\. データの追加（INSERT文）
-新しいデータをデータベースに追加するには、\`INSERT\` 文を使用します。  
-例えば、以下のように書くことで、新しいユーザーを\`users\`テーブルに追加できます。
+## 2\. データの追加（INSERT文）
+新しいデータをデータベースに追加するには、`INSERT` 文を使用します。  
+例えば、以下のように書くことで、新しいユーザーを `users` テーブルに追加できます。
 ```sql
 INSERT INTO users (name, email, age) VALUES ('Test Taro', 'taro@example.com', 25);
 ```
@@ -49,7 +47,7 @@ INSERT INTO users (name, email, age) VALUES ('Test Taro', 'taro@example.com', 25
 値を設定しているのは上記3項目以外のフィールドのみのため、値を設定していない `Adress` はどうなるかというと、  
 テーブル定義によっても異なりますが初期値（ `null` や `0` など）が設定されます。
 
-## 4\. データの更新（UPDATE文）
+## 3\. データの更新（UPDATE文）
 既存のデータを更新したい場合は、\`UPDATE\`文を使用します。  
 例えば、特定のユーザーのメールアドレスを更新するには以下のようにします。
 ```sql
@@ -61,7 +59,7 @@ UPDATE users SET email = 'tarotaro@example.com' WHERE name = 'Test Taro';
 また、仮に同テーブル上に同姓同名の `Test Taro` が複数存在した場合、更新対象も複数となります。  
 対象レコード1レコードのみ更新したい場合には、テーブルごとに一意になる主キー（PRIMARY KEY）などを用いて対応するようにします。
 
-## 5\. データの削除（DELETE文）  
+## 4\. データの削除（DELETE文）  
 不要なデータを削除するには、\`DELETE\` 文を使用します。  
 例えば、特定のユーザーを削除する場合は次のようにします。
 ```sql
