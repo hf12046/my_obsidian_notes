@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/ObsidianとGitHubの連携手順.md",
+                "file": "Clippings/SQLの基礎を学ぼう！データベース操作の基本.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "ObsidianとGitHubの連携手順へのバックリンク"
+              "title": "SQLの基礎を学ぼう！データベース操作の基本へのバックリンク"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clippings/ObsidianとGitHubの連携手順.md",
+                "file": "Clippings/SQLの基礎を学ぼう！データベース操作の基本.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "ObsidianとGitHubの連携手順からのアウトゴーイングリンク"
+              "title": "SQLの基礎を学ぼう！データベース操作の基本からのアウトゴーイングリンク"
             }
           },
           {
@@ -156,21 +156,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/【個人向け】Notion × Obsidianで知識管理をとにかく楽に運用する.md",
+                "file": "Clippings/SQLの基礎を学ぼう！データベース操作の基本.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "【個人向け】Notion × Obsidianで知識管理をとにかく楽に運用するのアウトライン"
+              "title": "SQLの基礎を学ぼう！データベース操作の基本のアウトライン"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 340.5
+    "width": 329.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,24 +189,24 @@
   },
   "active": "718018a48ca1d528",
   "lastOpenFiles": [
-    "Clippings/豆乳チョコスコーン.md",
+    "Clippings/スマホのObsidianをGitで同期(2024.11).md",
+    "Clippings/ObsidianとGitHubの連携手順.md",
+    "Clippings/ObsidianとAndroid間で自動ファイル同期.md",
+    "Clippings/Notion × Obsidianで知識管理をとにかく楽に運用する.md",
+    "Base.base",
     "Clippings/SQLの基礎を学ぼう！データベース操作の基本.md",
+    "Clippings/豆乳チョコスコーン.md",
     "Gitの使い方.md",
     "assets/Gitの使い方",
     "SQL文法.md",
-    "Base.base",
     "assets/SQL/file-20260128022924499.png",
     "assets/SQL",
     "assets",
-    "Clippings/ObsidianとGitHubの連携手順.md",
-    "Clippings/Notion × Obsidianで知識管理をとにかく楽に運用する.md",
     "Files_Git使い方",
     "assets/Gitの使い方/IMG-20260126014854348.png",
     "Git使い方image",
     "Git使い方image/IMG-20260126014727300.png",
     "Git使い方/IMG-20260126014437705.png",
-    "Clippings/ObsidianとAndroid間で自動ファイル同期.md",
-    "Clippings/スマホのObsidianをGitで同期(2024.11).md",
     "Git使い方",
     "Git使い方.png",
     "AndrondスマホとGithubの連携.md",

@@ -14,6 +14,7 @@ tags:
 2. [データの追加（INSERT文）](https://qiita.com/e-tak/items/#3-%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E8%BF%BD%E5%8A%A0insert%E6%96%87)
 3. [データの更新（UPDATE文）](https://qiita.com/e-tak/items/#4-%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E6%9B%B4%E6%96%B0update%E6%96%87)
 4. [データの削除（DELETE文）](https://qiita.com/e-tak/items/#5-%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E5%89%8A%E9%99%A4delete%E6%96%87)
+5. [[#テーブルの作成（CREATE文）]]
 
 ## 1\. データの抽出（SELECT文）
 以下のように書くことでテーブル`users`から全てのデータを取得できます。
@@ -67,3 +68,34 @@ DELETE FROM users WHERE name = 'Test Taro';
 ```
 
 このクエリは、 `name` が `Test Taro` であるユーザーをデータベースから削除します。
+
+## 5\. テーブルの作成（CREATE文）
+CREATE句*は、「テーブルやユーザーなどのオブジェクトを新しく作成するコマンド」です。  
+以下の例では、`book`というテーブルを作成しています。
+```
+CREATE TABLE book(
+    id INT(10) AUTO_INCREMENT NOT NULL,
+    name VARCHAR(30) NOT NULL,
+    author VARCHAR(30) NOT NULL,
+    age INT(3),
+    PRIMARY KEY (id)
+);
+```
+「CREATE TABLE」の後ろに「テーブル名」を指定し、（）の中に「カラム名」と「各カラムのデータ型（データの長さ）」を記していく簡単な構文です。
+
+ここで、引数の中には、「テーブルの列名・型・属性」を定義しています。  
+具体的に、各引数は下記のような意味を持っています。
+
+- id
+    - `INT(10)`: 10桁の整数
+    - `AUTO_INCREMENT`: 自動採番
+    - `NOT NULL`: 非NULL制約（何かしらのデータを入れないとエラーになる）
+    - `PRIMARY KEY`: 主キー
+- name
+    - `VARCHAR(30)`: 30文字以内の可変長の文字列
+    - `NOT NULL`: 非NULL制約（何かしらのデータを入れないとエラーになる）
+- author
+    - `VARCHAR(30)`: 30文字以内の可変長の文字列
+    - `NOT NULL`: 非NULL制約（何かしらのデータを入れないとエラーになる）
+- age
+    - `INT(3)`: 3桁の整数
