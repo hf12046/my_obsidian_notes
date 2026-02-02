@@ -10,33 +10,6 @@ tags:
   - obsidian
 ---
 [[スマホのObsidianをGitで同期(2024.11)]]
-## はじめに
-
-ノートアプリ **Obsidian** （mac版）を利用するにあたって、自身のGitHubアカウントと連携し、ノートを自動でコミット&プッシュされるようにしたいと考えました。
-
-しかし、検索して出てくる記事はスマホ向けの内容ばかりで、そのまま使える情報には辿り着けませんでした。
-
-そのため本記事では、実際に動作した手順を備忘録としてまとめます。
-
-## 参考にした記事との違い
-
-多くの記事で紹介されているスマホ向けの手順は以下の通りです。
-
-1. GitHubのアカウントでパーソナルアクセストークンを発行
-2. ObsidianでGitプラグインをインストール
-3. Gitプラグインのsettingの、「 `Authentication/Commit Author > Username` 」にGitHubのユーザーネームを入力
-4. 「 `Authentication/Commit Author > Password/Personal access token` 」にパーソナルアクセストークンを貼り付ける。
-
-しかし、PC版のObsidianのGitプラグインには「Authentication/Commit Author」のような項目が存在せず、アクセストークンを入力する欄もありません。
-
-## 実際に行った連携手順
-
-### 前提知識
-
-- ObsidianはVault（保管庫）という単位でノートを管理します。
-- VaultのルートディレクトリをそのままGitリポジトリにする必要があります。
-- PC版の方法ではアクセストークンは不要です。
-
 ### 1\. Vault（保管庫）を作成
 
 今回は `Valut/my-obsidian-notes` ディレクトリを作成しました。  
