@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/スマホのObsidianをGitで同期(2024.11).md",
+                "file": "2026-02-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "スマホのObsidianをGitで同期(2024.11)"
+              "title": "2026-02-03"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/スマホのObsidianをGitで同期(2024.11).md",
+                "file": "2026-02-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "スマホのObsidianをGitで同期(2024.11)へのバックリンク"
+              "title": "2026-02-03へのバックリンク"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clippings/スマホのObsidianをGitで同期(2024.11).md",
+                "file": "2026-02-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "スマホのObsidianをGitで同期(2024.11)からのアウトゴーイングリンク"
+              "title": "2026-02-03からのアウトゴーイングリンク"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/スマホのObsidianをGitで同期(2024.11).md",
+                "file": "2026-02-03.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "スマホのObsidianをGitで同期(2024.11)のアウトライン"
+              "title": "2026-02-03のアウトライン"
             }
           }
         ],
@@ -189,8 +189,9 @@
   },
   "active": "718018a48ca1d528",
   "lastOpenFiles": [
-    "Clippings/ObsidianとGitHubの連携手順.md",
     "Clippings/スマホのObsidianをGitで同期(2024.11).md",
+    "2026-02-03.md",
+    "Clippings/ObsidianとGitHubの連携手順.md",
     "Clippings/SQLの基礎を学ぼう！データベース操作の基本.md",
     "Clippings/ObsidianとAndroid間で自動ファイル同期.md",
     "Clippings/Notion × Obsidianで知識管理をとにかく楽に運用する.md",
