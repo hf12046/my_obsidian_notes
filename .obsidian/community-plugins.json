@@ -1,5 +1,7 @@
 [
   "obsidian-git",
   "obsidian-custom-attachment-location",
-  "obsidian-kindle-plugin"
+  "obsidian-kindle-plugin",
+  "dataview",
+  "recent-files-obsidian"
 ]
