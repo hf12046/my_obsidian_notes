@@ -3,6 +3,30 @@
     {
       "basename": "Gitの使い方",
       "path": "Gitの使い方.md"
+    },
+    {
+      "basename": "Flippings",
+      "path": "Flippings.md"
+    },
+    {
+      "basename": "Base",
+      "path": "Base.base"
+    },
+    {
+      "basename": "Notion × Obsidianで知識管理をとにかく楽に運用する",
+      "path": "Clippings/Notion × Obsidianで知識管理をとにかく楽に運用する.md"
+    },
+    {
+      "basename": "スマホのObsidianをGitで同期(2024.11)",
+      "path": "Clippings/スマホのObsidianをGitで同期(2024.11).md"
+    },
+    {
+      "basename": "SQLの基礎を学ぼう！データベース操作の基本",
+      "path": "Clippings/SQLの基礎を学ぼう！データベース操作の基本.md"
+    },
+    {
+      "basename": "豆乳チョコスコーン",
+      "path": "Clippings/豆乳チョコスコーン.md"
     }
   ],
   "omittedPaths": [],

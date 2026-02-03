@@ -11,10 +11,14 @@
             "id": "718018a48ca1d528",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "グラフビュー"
+              "type": "markdown",
+              "state": {
+                "file": "Gitの使い方.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gitの使い方"
             }
           }
         ]
@@ -84,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 225.5
   },
   "right": {
     "id": "0412a64ce9439235",
@@ -195,16 +199,16 @@
   },
   "active": "718018a48ca1d528",
   "lastOpenFiles": [
-    "Gitの使い方.md",
-    "Clippings/ObsidianとAndroid間で自動ファイル同期.md",
-    "Clippings/ObsidianとGitHubの連携手順.md",
     "Flippings.md",
     "Base.base",
-    "無題のファイル.canvas",
+    "Gitの使い方.md",
+    "Clippings/Notion × Obsidianで知識管理をとにかく楽に運用する.md",
     "Clippings/スマホのObsidianをGitで同期(2024.11).md",
     "Clippings/SQLの基礎を学ぼう！データベース操作の基本.md",
-    "Clippings/Notion × Obsidianで知識管理をとにかく楽に運用する.md",
     "Clippings/豆乳チョコスコーン.md",
+    "Clippings/ObsidianとAndroid間で自動ファイル同期.md",
+    "Clippings/ObsidianとGitHubの連携手順.md",
+    "無題のファイル.canvas",
     "assets/Gitの使い方",
     "SQL文法.md",
     "assets/SQL/file-20260128022924499.png",
