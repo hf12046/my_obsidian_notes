@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Gitの使い方",
-      "path": "Gitの使い方.md"
+      "basename": "Base",
+      "path": "Base.base"
     },
     {
       "basename": "Flippings",
       "path": "Flippings.md"
     },
     {
-      "basename": "Base",
-      "path": "Base.base"
+      "basename": "Gitの使い方",
+      "path": "Gitの使い方.md"
+    },
+    {
+      "basename": "jsonとは",
+      "path": "jsonとは.md"
+    },
+    {
+      "basename": "MCP (Model Context Protocol)",
+      "path": "MCP (Model Context Protocol).md"
+    },
+    {
+      "basename": "マークダウン記法",
+      "path": "マークダウン記法.md"
+    },
+    {
+      "basename": "Mermaid記法",
+      "path": "Mermaid記法.md"
     },
     {
       "basename": "Notion × Obsidianで知識管理をとにかく楽に運用する",

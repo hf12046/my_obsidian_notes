@@ -20,8 +20,22 @@
               "icon": "lucide-file",
               "title": "Gitの使い方"
             }
+          },
+          {
+            "id": "319123bddeb79013",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Base.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Base"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,11 +211,16 @@
       "markdown-importer:Markdownインポーターを開く": false
     }
   },
-  "active": "718018a48ca1d528",
+  "active": "319123bddeb79013",
   "lastOpenFiles": [
+    "無題のファイル.md",
     "Flippings.md",
-    "Base.base",
     "Gitの使い方.md",
+    "jsonとは.md",
+    "MCP (Model Context Protocol).md",
+    "マークダウン記法.md",
+    "Mermaid記法.md",
+    "Base.base",
     "Clippings/Notion × Obsidianで知識管理をとにかく楽に運用する.md",
     "Clippings/スマホのObsidianをGitで同期(2024.11).md",
     "Clippings/SQLの基礎を学ぼう！データベース操作の基本.md",
