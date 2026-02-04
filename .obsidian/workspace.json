@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-02-04.md",
+                "file": "Gitの使い方.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-04"
+              "title": "Gitの使い方"
             }
           }
         ],
@@ -214,8 +214,8 @@
   },
   "active": "319123bddeb79013",
   "lastOpenFiles": [
-    "Gitの使い方.md",
     "2026-02-04.md",
+    "Gitの使い方.md",
     "無題のフォルダ",
     "Base.base",
     "無題のファイル.md",
