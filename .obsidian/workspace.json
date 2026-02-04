@@ -25,13 +25,14 @@
             "id": "319123bddeb79013",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Base.base",
-                "viewName": "Table"
+                "file": "2026-02-04.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Base"
+              "icon": "lucide-file",
+              "title": "2026-02-04"
             }
           }
         ],
@@ -213,14 +214,16 @@
   },
   "active": "319123bddeb79013",
   "lastOpenFiles": [
+    "Gitの使い方.md",
+    "2026-02-04.md",
+    "無題のフォルダ",
+    "Base.base",
     "無題のファイル.md",
     "Flippings.md",
-    "Gitの使い方.md",
     "jsonとは.md",
     "MCP (Model Context Protocol).md",
     "マークダウン記法.md",
     "Mermaid記法.md",
-    "Base.base",
     "Clippings/Notion × Obsidianで知識管理をとにかく楽に運用する.md",
     "Clippings/スマホのObsidianをGitで同期(2024.11).md",
     "Clippings/SQLの基礎を学ぼう！データベース操作の基本.md",
