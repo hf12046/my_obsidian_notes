@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "718018a48ca1d528",
+            "id": "319123bddeb79013",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "319123bddeb79013",
+            "id": "e655f3b56fb2b0f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gitの使い方.md",
+                "file": "【GitHub×VsCode】基本操作まとめ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gitの使い方"
+              "title": "【GitHub×VsCode】基本操作まとめ"
             }
           }
         ],
@@ -88,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "tag:#program",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-02-03.md",
+                "file": "【GitHub×VsCode】基本操作まとめ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "2026-02-03へのバックリンク"
+              "title": "【GitHub×VsCode】基本操作まとめへのバックリンク"
             }
           },
           {
@@ -138,12 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2026-02-03.md",
+                "file": "【GitHub×VsCode】基本操作まとめ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2026-02-03からのアウトゴーイングリンク"
+              "title": "【GitHub×VsCode】基本操作まとめからのアウトゴーイングリンク"
             }
           },
           {
@@ -181,17 +181,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026-02-03.md",
+                "file": "【GitHub×VsCode】基本操作まとめ.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-02-03のアウトライン"
+              "title": "【GitHub×VsCode】基本操作まとめのアウトライン"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -212,24 +212,25 @@
       "markdown-importer:Markdownインポーターを開く": false
     }
   },
-  "active": "319123bddeb79013",
+  "active": "e655f3b56fb2b0f8",
   "lastOpenFiles": [
-    "2026-02-04.md",
     "Gitの使い方.md",
+    "【GitHub×VsCode】基本操作まとめ.md",
+    "MCP (Model Context Protocol).md",
+    "Mermaid記法.md",
+    "jsonとは.md",
+    "SQL.md",
+    "スマホのObsidianをGitで同期(2024.11).md",
+    "Flippings.md",
+    "ObsidianとGitHubの連携手順.md",
+    "Notion × Obsidianで知識管理をとにかく楽に運用する.md",
+    "豆乳チョコスコーン.md",
+    "マークダウン記法.md",
+    "2026-02-04.md",
     "無題のフォルダ",
     "Base.base",
     "無題のファイル.md",
-    "Flippings.md",
-    "jsonとは.md",
-    "MCP (Model Context Protocol).md",
-    "マークダウン記法.md",
-    "Mermaid記法.md",
-    "Clippings/Notion × Obsidianで知識管理をとにかく楽に運用する.md",
-    "Clippings/スマホのObsidianをGitで同期(2024.11).md",
-    "Clippings/SQLの基礎を学ぼう！データベース操作の基本.md",
-    "Clippings/豆乳チョコスコーン.md",
     "Clippings/ObsidianとAndroid間で自動ファイル同期.md",
-    "Clippings/ObsidianとGitHubの連携手順.md",
     "無題のファイル.canvas",
     "assets/Gitの使い方",
     "SQL文法.md",

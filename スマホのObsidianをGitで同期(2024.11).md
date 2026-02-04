@@ -1,15 +1,10 @@
 ---
-title: "スマホのObsidianをGitで同期(2024.11)"
-source: "https://zenn.dev/ishikawa096/articles/158246fc5a5d62"
-author:
-  - "[[Zenn]]"
+source: https://zenn.dev/ishikawa096/articles/158246fc5a5d62
 published: 2024-11-10
 created: 2026-01-25
-description:
 tags:
-  - "clippings"
+  - clippings
 ---
-[[ObsidianとGitHubの連携手順]]
 ## 手順
 
 先に完了させておくこと

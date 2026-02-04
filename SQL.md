@@ -1,9 +1,7 @@
 ---
-title: SQLの基礎を学ぼう！データベース操作の基本
 source: https://qiita.com/e-tak/items/fd8703e54363287d0596
 published: 2024-10-07
 created: 2026-01-28
-description: ■ はじめに この記事では、SQLの基礎を解説します。 これからSQLを学ぶ方や、基礎を再確認したい方はこの記事でSQLの基本操作を一緒に見ていきましょう。 データベース操作の検索、追加、更新、削除の基本操作をサンプルコードで説明します。 ■ 目次 SQLとは ...
 tags:
   - clippings
   - sql
@@ -14,7 +12,7 @@ tags:
 2. [データの追加（INSERT文）](https://qiita.com/e-tak/items/#3-%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E8%BF%BD%E5%8A%A0insert%E6%96%87)
 3. [データの更新（UPDATE文）](https://qiita.com/e-tak/items/#4-%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E6%9B%B4%E6%96%B0update%E6%96%87)
 4. [データの削除（DELETE文）](https://qiita.com/e-tak/items/#5-%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E5%89%8A%E9%99%A4delete%E6%96%87)
-5. [[#テーブルの作成（CREATE文）]]
+5. [[SQL#テーブルの作成（CREATE文）]]
 
 ## 1\. データの抽出（SELECT文）
 以下のように書くことでテーブル`users`から全てのデータを取得できます。
