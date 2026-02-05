@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "【GitHub×VsCode】基本操作まとめ.md",
+                "file": "豆乳チョコスコーン.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "【GitHub×VsCode】基本操作まとめ"
+              "title": "豆乳チョコスコーン"
             }
           }
         ],
@@ -212,8 +212,8 @@
   },
   "active": "e655f3b56fb2b0f8",
   "lastOpenFiles": [
-    "Gitの使い方.md",
     "【GitHub×VsCode】基本操作まとめ.md",
+    "Gitの使い方.md",
     "MCP (Model Context Protocol).md",
     "Mermaid記法.md",
     "jsonとは.md",
