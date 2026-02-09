@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Antigravity.md",
+                "file": "ハングル.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Antigravity"
+              "title": "ハングル"
             }
           }
         ],
@@ -213,7 +213,7 @@
   "active": "e655f3b56fb2b0f8",
   "lastOpenFiles": [
     "Antigravity.md",
-    "Antigravity.md",
+    "ハングル.md",
     "豆乳チョコスコーン.md",
     "【GitHub×VsCode】基本操作まとめ.md",
     "Gitの使い方.md",
