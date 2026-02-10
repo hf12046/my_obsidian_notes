@@ -84,3 +84,48 @@ githubリポジトリを確認して、問題なくpushされていれば同期�
 [Obsidian](https://obsidian.md/)  
 [obsidian-git](https://github.com/Vinzent03/obsidian-git)  
 [Github Docs: Managing your personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+
+
+# OneDriveを使った共有方法
+### OneSync フォルダペアの作成手順
+
+1. **「フォルダペア」画面を開く**
+    
+    - OneSyncアプリを開き、下部メニューの「同期済みフォルダ（Sync folders）」または「フォルダペアの作成」をタップします。
+        
+2. **OneDrive側のフォルダを選択（リモート）**
+    
+    - 「OneDrive内のフォルダ」を選択する画面になります。
+        
+    - PCで同期しているObsidianの保管庫（Vault）フォルダ（例：`Obsidian Vault`）を探して選択してください。
+        
+3. **スマホ側のフォルダを選択（ローカル）**
+    
+    - 「デバイス内のフォルダ」を選択する画面になります。
+        
+    - 先ほど の手順で作った **「空」という名前のフォルダ**（または新しく作成した空のフォルダ）を選択してください。
+        
+    - **重要**: 必ず「空」のフォルダ、またはObsidianのデータを入れたい専用のフォルダを選んでください。
+        
+4. **同期方法を設定**
+    
+    - 同期方式（Sync method）は必ず **「双方向（Two-way）」** を選択してください。
+        
+    - これにより、「PCで書いた内容がスマホへ」「スマホで書いた内容がPCへ」の両方が自動で行われるようになります。
+        
+5. **保存して同期開始**
+    
+    - 設定を保存すると、すぐに同期（ダウンロード）が始まります。スマホの「空」だったフォルダに、PCのファイルが次々と入ってくれば成功です。
+        
+
+---
+
+### Obsidianアプリ側の設定
+
+OneSyncでファイルがダウンロードされたら、最後にObsidianでその場所を指定します。
+
+1. Obsidianアプリを開きます。
+    
+2. 左下の「保管庫（ドア）」アイコンをタップし、**「Open folder as vault」** を選択します。
+    
+3. **OneSyncで紐付けた「スマホ側のフォルダ」** を選択して、「このフォルダを使用」 をタップします。
