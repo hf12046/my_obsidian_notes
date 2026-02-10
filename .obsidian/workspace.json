@@ -46,9 +46,21 @@
               "icon": "excalidraw-icon",
               "title": "Drawing 2026-02-10 12.55.09.excalidraw"
             }
+          },
+          {
+            "id": "80935bd41cb354bf",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -223,7 +235,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e255d10c91de477d",
+  "active": "4cbfd42e2244074c",
   "lastOpenFiles": [
     "ハングル.md",
     "Excalidraw/Drawing 2026-02-10 12.55.09.excalidraw.md",
