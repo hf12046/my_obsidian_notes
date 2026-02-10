@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ハングル.md",
+                "file": "【GitHub×VsCode】基本操作まとめ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ハングル"
+              "title": "【GitHub×VsCode】基本操作まとめ"
             }
           }
         ],
@@ -213,14 +213,14 @@
   },
   "active": "e655f3b56fb2b0f8",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-02-10 12.55.09.excalidraw.md",
+    "Gitの使い方.md",
     "ハングル.md",
-    "Excalidraw",
     "文字練習.canvas",
+    "Excalidraw/Drawing 2026-02-10 12.55.09.excalidraw.md",
+    "Excalidraw",
     "Antigravity.md",
     "豆乳チョコスコーン.md",
     "【GitHub×VsCode】基本操作まとめ.md",
-    "Gitの使い方.md",
     "MCP (Model Context Protocol).md",
     "Mermaid記法.md",
     "jsonとは.md",
@@ -255,7 +255,6 @@
     "Untitled.canvas",
     "create a link.md",
     "2026-01-06.md",
-    "Welcome.md",
-    "2025-12-21.md"
+    "Welcome.md"
   ]
 }
