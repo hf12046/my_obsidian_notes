@@ -34,23 +34,8 @@
               "icon": "lucide-file",
               "title": "コマンドプロンプトでよく使うコマンド一覧"
             }
-          },
-          {
-            "id": "6ad0bd5f25189c23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "【GitHub×VsCode】基本操作まとめ.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "【GitHub×VsCode】基本操作まとめ"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -225,8 +210,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6ad0bd5f25189c23",
+  "active": "319123bddeb79013",
   "lastOpenFiles": [
+    "【GitHub×VsCode】基本操作まとめ.md",
     "Flippings.md",
     "Excalidraw/Drawing 2026-02-10 12.55.09.excalidraw.md",
     "Excalidraw/Drawing 2026-02-14 22.08.53.excalidraw.md",
@@ -235,7 +221,6 @@
     "ハングル.md",
     "スマホのObsidianをGitで同期(2024.11).md",
     "2026-02-11.md",
-    "【GitHub×VsCode】基本操作まとめ.md",
     "Gitの使い方.md",
     "文字練習.canvas",
     "Excalidraw",
