@@ -1,8 +1,0 @@
-{
-  "amazonRegion": "global",
-  "highlightsFolder": "/",
-  "lastSyncMode": "amazon",
-  "isLoggedIn": false,
-  "syncOnBoot": true,
-  "downloadBookMetadata": true
-}
