@@ -3,5 +3,7 @@
   "obsidian-custom-attachment-location",
   "dataview",
   "recent-files-obsidian",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "mcp-tools",
+  "obsidian-local-rest-api"
 ]

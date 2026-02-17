@@ -199,7 +199,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kindle-plugin:Sync your Kindle highlights": false,
       "obsidian-git:Open Git source control": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
@@ -212,6 +211,7 @@
   },
   "active": "319123bddeb79013",
   "lastOpenFiles": [
+    "Gitの使い方.md",
     "2026-02-13.md",
     "【GitHub×VsCode】基本操作まとめ.md",
     "Flippings.md",
@@ -222,7 +222,6 @@
     "ハングル.md",
     "スマホのObsidianをGitで同期(2024.11).md",
     "2026-02-11.md",
-    "Gitの使い方.md",
     "文字練習.canvas",
     "Excalidraw",
     "Antigravity.md",
