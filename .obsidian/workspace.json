@@ -35,7 +35,8 @@
               "title": "コマンドプロンプトでよく使うコマンド一覧"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,7 +210,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "319123bddeb79013",
+  "active": "e655f3b56fb2b0f8",
   "lastOpenFiles": [
     "Gitの使い方.md",
     "2026-02-13.md",

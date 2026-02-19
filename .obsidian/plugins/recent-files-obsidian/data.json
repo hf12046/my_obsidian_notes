@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "コマンドプロンプトでよく使うコマンド一覧",
+      "path": "コマンドプロンプトでよく使うコマンド一覧.md"
+    },
+    {
       "basename": "Gitの使い方",
       "path": "Gitの使い方.md"
+    },
+    {
+      "basename": "2026-02-13",
+      "path": "2026-02-13.md"
     },
     {
       "basename": "【GitHub×VsCode】基本操作まとめ",
@@ -11,10 +19,6 @@
     {
       "basename": "Flippings",
       "path": "Flippings.md"
-    },
-    {
-      "basename": "コマンドプロンプトでよく使うコマンド一覧",
-      "path": "コマンドプロンプトでよく使うコマンド一覧.md"
     },
     {
       "basename": "豆乳チョコスコーン",
