@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "ハングル",
+      "path": "ハングル.md"
+    },
+    {
+      "basename": "マークダウン記法",
+      "path": "マークダウン記法.md"
+    },
+    {
+      "basename": "豆乳チョコスコーン",
+      "path": "豆乳チョコスコーン.md"
+    },
+    {
+      "basename": "Drawing 2026-02-21 06.41.40.excalidraw",
+      "path": "Excalidraw/Drawing 2026-02-21 06.41.40.excalidraw.md"
+    },
+    {
+      "basename": "無題のファイル",
+      "path": "無題のファイル.base"
+    },
+    {
       "basename": "コマンドプロンプトでよく使うコマンド一覧",
       "path": "コマンドプロンプトでよく使うコマンド一覧.md"
     },
@@ -19,14 +39,6 @@
     {
       "basename": "Flippings",
       "path": "Flippings.md"
-    },
-    {
-      "basename": "豆乳チョコスコーン",
-      "path": "豆乳チョコスコーン.md"
-    },
-    {
-      "basename": "ハングル",
-      "path": "ハングル.md"
     },
     {
       "basename": "スマホのObsidianをGitで同期(2024.11)",
@@ -55,10 +67,6 @@
     {
       "basename": "SQL",
       "path": "SQL.md"
-    },
-    {
-      "basename": "マークダウン記法",
-      "path": "マークダウン記法.md"
     },
     {
       "basename": "Base",
