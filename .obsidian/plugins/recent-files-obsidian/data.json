@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "2026-02-23",
-      "path": "2026-02-23.md"
+      "basename": "【GitHub×VsCode】基本操作まとめ",
+      "path": "IT知識/【GitHub×VsCode】基本操作まとめ.md"
     },
     {
-      "basename": "2026-02-17",
-      "path": "2026-02-17.md"
+      "basename": "数十行の箇条書きから49枚の提案スライドへ — Claude Opus 4.6 × Slidev【プロンプト全文公開】",
+      "path": "IT知識/数十行の箇条書きから49枚の提案スライドへ — Claude Opus 4.6 × Slidev【プロンプト全文公開】.md"
     },
     {
-      "basename": "2026-02-13",
-      "path": "2026-02-13.md"
+      "basename": "コマンドプロンプトでよく使うコマンド一覧",
+      "path": "IT知識/コマンドプロンプトでよく使うコマンド一覧.md"
+    },
+    {
+      "basename": "スライド作成を自動化するClaude「skills」の作り方｜Taro Segawa",
+      "path": "IT知識/スライド作成を自動化するClaude「skills」の作り方｜Taro Segawa.md"
+    },
+    {
+      "basename": "Base",
+      "path": "Base.base"
     },
     {
       "basename": "ハングル",
@@ -18,7 +26,7 @@
     },
     {
       "basename": "マークダウン記法",
-      "path": "マークダウン記法.md"
+      "path": "IT知識/マークダウン記法.md"
     },
     {
       "basename": "豆乳チョコスコーン",
@@ -29,20 +37,8 @@
       "path": "Excalidraw/Drawing 2026-02-21 06.41.40.excalidraw.md"
     },
     {
-      "basename": "無題のファイル",
-      "path": "無題のファイル.base"
-    },
-    {
-      "basename": "コマンドプロンプトでよく使うコマンド一覧",
-      "path": "コマンドプロンプトでよく使うコマンド一覧.md"
-    },
-    {
       "basename": "Gitの使い方",
-      "path": "Gitの使い方.md"
-    },
-    {
-      "basename": "【GitHub×VsCode】基本操作まとめ",
-      "path": "【GitHub×VsCode】基本操作まとめ.md"
+      "path": "IT知識/Gitの使い方.md"
     },
     {
       "basename": "Flippings",
@@ -50,7 +46,7 @@
     },
     {
       "basename": "スマホのObsidianをGitで同期(2024.11)",
-      "path": "スマホのObsidianをGitで同期(2024.11).md"
+      "path": "IT知識/スマホのObsidianをGitで同期(2024.11).md"
     },
     {
       "basename": "2026-02-11",
@@ -58,27 +54,23 @@
     },
     {
       "basename": "Antigravity",
-      "path": "Antigravity.md"
+      "path": "IT知識/Antigravity.md"
     },
     {
       "basename": "MCP (Model Context Protocol)",
-      "path": "MCP (Model Context Protocol).md"
+      "path": "IT知識/MCP (Model Context Protocol).md"
     },
     {
       "basename": "Mermaid記法",
-      "path": "Mermaid記法.md"
+      "path": "IT知識/Mermaid記法.md"
     },
     {
       "basename": "jsonとは",
-      "path": "jsonとは.md"
+      "path": "IT知識/jsonとは.md"
     },
     {
       "basename": "SQL",
-      "path": "SQL.md"
-    },
-    {
-      "basename": "Base",
-      "path": "Base.base"
+      "path": "IT知識/SQL.md"
     }
   ],
   "omittedPaths": [],
