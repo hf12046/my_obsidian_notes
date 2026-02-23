@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-02-17.md",
+                "file": "2026-02-23.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-17"
+              "title": "2026-02-23"
+            }
+          },
+          {
+            "id": "c223f3a4bb2c0ead",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://qiita.com/ntaka329/items/a2b936b3796ed1ba7373",
+                "title": "数十行の箇条書きから49枚の提案スライドへ — Claude Opus 4.6 × Slidev【プロンプト全文公開】 #生成AI - Qiita",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "数十行の箇条書きから49枚の提案スライドへ — Claude Opus 4.6 × Slidev【プロンプト全文公開】 #生成AI - Qiita"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -210,10 +224,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e655f3b56fb2b0f8",
+  "active": "c223f3a4bb2c0ead",
   "lastOpenFiles": [
-    "2026-02-13.md",
+    "2026-02-23.md",
     "2026-02-17.md",
+    "2026-02-13.md",
     "ハングル.md",
     "マークダウン記法.md",
     "豆乳チョコスコーン.md",
