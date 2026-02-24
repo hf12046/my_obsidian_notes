@@ -22,31 +22,17 @@
             }
           },
           {
-            "id": "7293e7639ab0a791",
+            "id": "c329777dc922d680",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT知識/【GitHub×VsCode】基本操作まとめ.md",
+                "file": "政治・経済/集団的自衛権.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "【GitHub×VsCode】基本操作まとめ"
-            }
-          },
-          {
-            "id": "77a003c6ee2d6a49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IT知識/【GitHub×VsCode】基本操作まとめ.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "【GitHub×VsCode】基本操作まとめ"
+              "title": "集団的自衛権"
             }
           }
         ],
@@ -224,11 +210,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7293e7639ab0a791",
+  "active": "c329777dc922d680",
   "lastOpenFiles": [
+    "IT知識/Gitの使い方.md",
+    "政治・経済/集団的自衛権.md",
+    "IT知識/【GitHub×VsCode】基本操作まとめ.md",
+    "政治・経済",
     "IT知識/数十行の箇条書きから49枚の提案スライドへ — Claude Opus 4.6 × Slidev【プロンプト全文公開】.md",
     "2026-02-23.md",
-    "IT知識/【GitHub×VsCode】基本操作まとめ.md",
     "IT知識/コマンドプロンプトでよく使うコマンド一覧.md",
     "IT知識/スライド作成を自動化するClaude「skills」の作り方｜Taro Segawa.md",
     "IT知識",
@@ -242,7 +231,6 @@
     "豆乳チョコスコーン.md",
     "Excalidraw/Drawing 2026-02-21 06.55.59.excalidraw.md",
     "Excalidraw/Drawing 2026-02-21 06.41.40.excalidraw.md",
-    "IT知識/Gitの使い方.md",
     "Flippings.md",
     "Excalidraw/Drawing 2026-02-10 12.55.09.excalidraw.md",
     "Excalidraw/Drawing 2026-02-14 22.08.53.excalidraw.md",
@@ -256,8 +244,6 @@
     "IT知識/jsonとは.md",
     "IT知識/SQL.md",
     "ObsidianとGitHubの連携手順.md",
-    "Notion × Obsidianで知識管理をとにかく楽に運用する.md",
-    "2026-02-04.md",
     "assets/Gitの使い方",
     "assets/SQL/file-20260128022924499.png",
     "assets/SQL",
@@ -267,7 +253,6 @@
     "Git使い方image",
     "Git使い方image/IMG-20260126014727300.png",
     "Git使い方/IMG-20260126014437705.png",
-    "Git使い方",
     "Git使い方.png",
     "Pasted image 20260111204221.png",
     "Untitled.canvas"

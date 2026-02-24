@@ -5,13 +5,20 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#program  ",
       "color": {
         "a": 1,
         "rgb": 14048348
+      }
+    },
+    {
+      "query": "tag:#政治イシュー  ",
+      "color": {
+        "a": 1,
+        "rgb": 6058198
       }
     }
   ],
@@ -25,6 +32,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.4019828977760993,
-  "close": false
+  "scale": 0.7132754626224408,
+  "close": true
 }
