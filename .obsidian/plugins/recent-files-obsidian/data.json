@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "YAML",
+      "path": "IT知識/YAML.md"
+    },
+    {
+      "basename": "jsonとは",
+      "path": "IT知識/jsonとは.md"
+    },
+    {
+      "basename": "SQL",
+      "path": "IT知識/SQL.md"
+    },
+    {
       "basename": "集団的自衛権",
       "path": "政治・経済/集団的自衛権.md"
     },
@@ -67,14 +79,6 @@
     {
       "basename": "Mermaid記法",
       "path": "IT知識/Mermaid記法.md"
-    },
-    {
-      "basename": "jsonとは",
-      "path": "IT知識/jsonとは.md"
-    },
-    {
-      "basename": "SQL",
-      "path": "IT知識/SQL.md"
     }
   ],
   "omittedPaths": [],

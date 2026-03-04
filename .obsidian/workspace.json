@@ -27,16 +27,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "政治・経済/集団的自衛権.md",
+                "file": "IT知識/YAML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "集団的自衛権"
+              "title": "YAML"
+            }
+          },
+          {
+            "id": "3e587e063aac1f33",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "リリースノート 1.12.4"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,20 +212,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新規ベースを作成": false,
       "obsidian-git:Open Git source control": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "command-palette:コマンドパレットを開く": false,
-      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c329777dc922d680",
+  "active": "3e587e063aac1f33",
   "lastOpenFiles": [
-    "IT知識/Gitの使い方.md",
+    "IT知識/jsonとは.md",
+    "IT知識/SQL.md",
+    "IT知識/JavaScript ガイド.md",
+    "IT知識/Pythonプログラミング.md",
+    "IT知識/YAML.md",
+    "IT知識/ターミナルとシェル.md",
+    "IT知識/データウェアハウス.md",
     "政治・経済/集団的自衛権.md",
+    "IT知識/Gitの使い方.md",
     "IT知識/【GitHub×VsCode】基本操作まとめ.md",
     "政治・経済",
     "IT知識/数十行の箇条書きから49枚の提案スライドへ — Claude Opus 4.6 × Slidev【プロンプト全文公開】.md",
@@ -238,12 +257,6 @@
     "2026-02-11.md",
     "文字練習.canvas",
     "Excalidraw",
-    "IT知識/Antigravity.md",
-    "IT知識/MCP (Model Context Protocol).md",
-    "IT知識/Mermaid記法.md",
-    "IT知識/jsonとは.md",
-    "IT知識/SQL.md",
-    "ObsidianとGitHubの連携手順.md",
     "assets/Gitの使い方",
     "assets/SQL/file-20260128022924499.png",
     "assets/SQL",
