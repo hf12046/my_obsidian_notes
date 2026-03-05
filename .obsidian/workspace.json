@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "豆乳チョコスコーン.md",
+                "file": "IT知識/SQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "豆乳チョコスコーン"
+              "title": "SQL"
             }
           }
         ],
@@ -238,6 +238,7 @@
   },
   "active": "7a0f39dcfa30b0ca",
   "lastOpenFiles": [
+    "豆乳チョコスコーン.md",
     "IT知識/jsonとは.md",
     "IT知識/SQL.md",
     "IT知識/JavaScript ガイド.md",
@@ -261,7 +262,6 @@
     "無題のファイル.base",
     "ハングル.md",
     "IT知識/マークダウン記法.md",
-    "豆乳チョコスコーン.md",
     "Excalidraw/Drawing 2026-02-21 06.55.59.excalidraw.md",
     "Excalidraw/Drawing 2026-02-21 06.41.40.excalidraw.md",
     "Flippings.md",
