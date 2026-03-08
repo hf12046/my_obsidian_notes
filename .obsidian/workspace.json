@@ -54,7 +54,7 @@
               "type": "markdown",
               "state": {
                 "file": "キーボードショートカット.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -207,17 +207,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "【GitHub×VsCode】基本操作まとめ.md",
+                "file": "キーボードショートカット.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "【GitHub×VsCode】基本操作まとめのアウトライン"
+              "title": "キーボードショートカットのアウトライン"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",

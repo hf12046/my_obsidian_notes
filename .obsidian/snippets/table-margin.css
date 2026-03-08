@@ -1,0 +1,9 @@
+/* 表の上の余白をゼロにする */
+.markdown-rendered table {
+  margin-top: 0px !important;
+}
+
+/* 前の段落（pタグ）がある場合の余白も調整したい場合 */
+.markdown-rendered p + .table-wrapper {
+  margin-top: 0px !important;
+}
