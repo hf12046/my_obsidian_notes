@@ -36,33 +36,21 @@
             }
           },
           {
-            "id": "3e587e063aac1f33",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "リリースノート 1.12.4"
-            }
-          },
-          {
             "id": "7a0f39dcfa30b0ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "キーボードショートカット.md",
+                "file": "豆乳チョコスコーン.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "キーボードショートカット"
+              "title": "豆乳チョコスコーン"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -238,8 +226,8 @@
   },
   "active": "7a0f39dcfa30b0ca",
   "lastOpenFiles": [
-    "IT知識/SQL.md",
     "キーボードショートカット.md",
+    "IT知識/SQL.md",
     "豆乳チョコスコーン.md",
     "IT知識/jsonとは.md",
     "IT知識/JavaScript ガイド.md",
