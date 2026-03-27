@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "豆乳チョコスコーン.md",
-                "mode": "preview",
+                "file": "IT知識/SQL.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "豆乳チョコスコーン"
+              "title": "SQL"
+            }
+          },
+          {
+            "id": "fb8fdf1418950249",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "テスト用.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "テスト用"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -224,19 +238,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7a0f39dcfa30b0ca",
+  "active": "fb8fdf1418950249",
   "lastOpenFiles": [
-    "キーボードショートカット.md",
+    "テスト用.md",
     "IT知識/SQL.md",
-    "豆乳チョコスコーン.md",
+    "IT知識/Pythonプログラミング.md",
+    "IT知識/MCP (Model Context Protocol).md",
     "IT知識/jsonとは.md",
     "IT知識/JavaScript ガイド.md",
-    "IT知識/Pythonプログラミング.md",
+    "IT知識/Antigravity.md",
+    "IT知識/Gitの使い方.md",
+    "IT知識/Mermaid記法.md",
     "IT知識/YAML.md",
+    "Base.base",
+    "キーボードショートカット.md",
+    "豆乳チョコスコーン.md",
     "IT知識/ターミナルとシェル.md",
     "IT知識/データウェアハウス.md",
     "政治・経済/集団的自衛権.md",
-    "IT知識/Gitの使い方.md",
     "IT知識/【GitHub×VsCode】基本操作まとめ.md",
     "政治・経済",
     "IT知識/数十行の箇条書きから49枚の提案スライドへ — Claude Opus 4.6 × Slidev【プロンプト全文公開】.md",
@@ -244,7 +263,6 @@
     "IT知識/コマンドプロンプトでよく使うコマンド一覧.md",
     "IT知識/スライド作成を自動化するClaude「skills」の作り方｜Taro Segawa.md",
     "IT知識",
-    "Base.base",
     "スライド作成を自動化するClaude「skills」の作り方.md",
     "2026-02-13.md",
     "無題のファイル.canvas",
@@ -253,10 +271,6 @@
     "IT知識/マークダウン記法.md",
     "Excalidraw/Drawing 2026-02-21 06.55.59.excalidraw.md",
     "Excalidraw/Drawing 2026-02-21 06.41.40.excalidraw.md",
-    "Flippings.md",
-    "Excalidraw/Drawing 2026-02-10 12.55.09.excalidraw.md",
-    "Excalidraw/Drawing 2026-02-14 22.08.53.excalidraw.md",
-    "IT知識/スマホのObsidianをGitで同期(2024.11).md",
     "文字練習.canvas",
     "Excalidraw",
     "assets/Gitの使い方",

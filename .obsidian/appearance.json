@@ -1,5 +1,6 @@
 {
   "enabledCssSnippets": [
-    "table-margin"
+    "table-margin",
+    "pdf-export"
   ]
 }
