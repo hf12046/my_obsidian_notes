@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "豆乳チョコスコーン.md",
+                "file": "IT知識/Gitの使い方.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "豆乳チョコスコーン"
+              "title": "Gitの使い方"
             }
           }
         ],
@@ -240,6 +240,7 @@
   },
   "active": "fb8fdf1418950249",
   "lastOpenFiles": [
+    "豆乳チョコスコーン.md",
     "テスト用.md",
     "IT知識/SQL.md",
     "IT知識/Pythonプログラミング.md",
@@ -252,7 +253,6 @@
     "IT知識/YAML.md",
     "Base.base",
     "キーボードショートカット.md",
-    "豆乳チョコスコーン.md",
     "IT知識/ターミナルとシェル.md",
     "IT知識/データウェアハウス.md",
     "政治・経済/集団的自衛権.md",
