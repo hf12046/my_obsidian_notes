@@ -7,13 +7,7 @@ tags:
   - sql
   - program
 ---
-## ■ 目次  
-1. [データの抽出（SELECT文）](https://qiita.com/e-tak/items/#2-%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E6%A4%9C%E7%B4%A2select%E6%96%87)
-2. [データの追加（INSERT文）](https://qiita.com/e-tak/items/#3-%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E8%BF%BD%E5%8A%A0insert%E6%96%87)
-3. [データの更新（UPDATE文）](https://qiita.com/e-tak/items/#4-%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E6%9B%B4%E6%96%B0update%E6%96%87)
-4. [データの削除（DELETE文）](https://qiita.com/e-tak/items/#5-%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E5%89%8A%E9%99%A4delete%E6%96%87)
-5. [[SQL#テーブルの作成（CREATE文）]]
-
+# **CRUD**（Create, Read, Update, Delete）
 ## 1\. データの抽出（SELECT文）
 以下のように書くことでテーブル`users`から全てのデータを取得できます。
 ```sql
@@ -97,3 +91,6 @@ CREATE TABLE book(
     - `NOT NULL`: 非NULL制約（何かしらのデータを入れないとエラーになる）
 - age
     - `INT(3)`: 3桁の整数
+
+
+# 集計関数
