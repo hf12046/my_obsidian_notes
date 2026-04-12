@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "コマンドプロンプトでよく使うコマンド一覧",
+      "path": "IT知識/コマンドプロンプトでよく使うコマンド一覧.md"
+    },
+    {
       "basename": "SQL",
       "path": "IT知識/SQL.md"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "数十行の箇条書きから49枚の提案スライドへ — Claude Opus 4.6 × Slidev【プロンプト全文公開】",
       "path": "IT知識/数十行の箇条書きから49枚の提案スライドへ — Claude Opus 4.6 × Slidev【プロンプト全文公開】.md"
-    },
-    {
-      "basename": "コマンドプロンプトでよく使うコマンド一覧",
-      "path": "IT知識/コマンドプロンプトでよく使うコマンド一覧.md"
     },
     {
       "basename": "スライド作成を自動化するClaude「skills」の作り方｜Taro Segawa",
