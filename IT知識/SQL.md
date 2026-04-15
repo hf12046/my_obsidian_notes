@@ -7,168 +7,163 @@ tags:
   - sql
   - program
 ---
-# CRUD（Create, Read, Update, Delete）
-## データの抽出（SELECT文）
-以下のように書くことでテーブル`users`から全てのデータを取得できます。
+## 1. CREATE（データの作成）
+
+**テーブルの作成**
 ```sql
-SELECT * FROM users;
-```
-
-テーブル `users` から特定のカラムだけを取得したい場合は、カラム名を指定します。
-```sql
-SELECT name, email FROM users;
-```
-
-条件を絞るためには、 `WHERE` 句を使用します。
-```sql
-SELECT * FROM users WHERE age >= 20;
-```
-
-このクエリでは、age というカラムが20以上の場合のみ取得することができるので、  
-20歳以上のユーザーのみが取得できることになります。
-
-## データの追加（INSERT文）
-新しいデータをデータベースに追加するには、`INSERT` 文を使用します。  
-例えば、以下のように書くことで、新しいユーザーを `users` テーブルに追加できます。
-```sql
-INSERT INTO users (name, email, age) VALUES ('Test Taro', 'taro@example.com', 25);
-```
-
-これにより、 `name` 、 `email` 、 `age` のフィールドにデータが追加されます。  
-  
-ここでテーブルには上記以外に `Adress` という項目があったとします。  
-値を設定しているのは上記3項目以外のフィールドのみのため、値を設定していない `Adress` はどうなるかというと、  
-テーブル定義によっても異なりますが初期値（ `null` や `0` など）が設定されます。
-
-## データの更新（UPDATE文）
-既存のデータを更新したい場合は、`UPDATE` 文を使用します。  
-例えば、特定のユーザーのメールアドレスを更新するには以下のようにします。
-```sql
-UPDATE users SET email = 'tarotaro@example.com' WHERE name = 'Test Taro';
-```
-
-このクエリは、名前が `Test Taro` であるユーザーのメールアドレスを更新します。  
-`WHERE` 句を忘れると全てのレコードが更新の対象になってしまうため注意しましょう。  
-また、仮に同テーブル上に同姓同名の `Test Taro` が複数存在した場合、更新対象も複数となります。  
-対象レコード1レコードのみ更新したい場合には、テーブルごとに一意になる主キー（PRIMARY KEY）などを用いて対応するようにします。
-
-## データの削除（DELETE文）
-不要なデータを削除するには、`DELETE` 文を使用します。  
-例えば、特定のユーザーを削除する場合は次のようにします。
-```sql
-DELETE FROM users WHERE name = 'Test Taro';
-```
-
-このクエリは、 `name` が `Test Taro` であるユーザーをデータベースから削除します。
-
-## テーブルの作成（CREATE文）
-`CREATE` 句は、「テーブルやユーザーなどのオブジェクトを新しく作成するコマンド」です。  
-以下の例では、`book`というテーブルを作成しています。
-```sql
-CREATE TABLE book(
-    id INT(10) AUTO_INCREMENT NOT NULL,
-    name VARCHAR(30) NOT NULL,
-    author VARCHAR(30) NOT NULL,
-    age INT(3),
-    PRIMARY KEY (id)
+CREATE TABLE employees (
+    id       INTEGER PRIMARY KEY,
+    name     TEXT NOT NULL,
+    dept     TEXT,
+    salary   INTEGER DEFAULT 0,
+    hired_at DATE
 );
 ```
-「CREATE TABLE」の後ろに「テーブル名」を指定し、（）の中に「カラム名」と「各カラムのデータ型（データの長さ）」を記していく簡単な構文です。
 
-ここで、引数の中には、「テーブルの列名・型・属性」を定義しています。  
-具体的に、各引数は下記のような意味を持っています。
-
-- id
-    - `INT(10)`: 10桁の整数
-    - `AUTO_INCREMENT`: 自動採番
-    - `NOT NULL`: 非NULL制約（何かしらのデータを入れないとエラーになる）
-    - `PRIMARY KEY`: 主キー
-- name
-    - `VARCHAR(30)`: 30文字以内の可変長の文字列
-    - `NOT NULL`: 非NULL制約（何かしらのデータを入れないとエラーになる）
-- author
-    - `VARCHAR(30)`: 30文字以内の可変長の文字列
-    - `NOT NULL`: 非NULL制約（何かしらのデータを入れないとエラーになる）
-- age
-    - `INT(3)`: 3桁の整数
-
----
-
-# 集計関数
-集計関数とは、複数行のデータをまとめて1つの値を返す関数です。
-
-## 主な集計関数一覧
-
-| 関数 | 説明 |
-|------|------|
-| `COUNT()` | 行数を数える |
-| `SUM()` | 合計値を求める |
-| `AVG()` | 平均値を求める |
-| `MAX()` | 最大値を求める |
-| `MIN()` | 最小値を求める |
-
-## COUNT
-テーブルの行数を取得します。
+**データの挿入（INSERT）**
 ```sql
--- 全行数を取得
-SELECT COUNT(*) FROM users;
+-- 1行挿入
+INSERT INTO employees (name, dept, salary, hired_at)
+VALUES ('田中太郎', '営業', 350000, '2024-04-01');
 
--- NULLを除いた特定カラムの行数を取得
-SELECT COUNT(email) FROM users;
-```
-
-## SUM
-数値カラムの合計を取得します。
-```sql
--- 全ユーザーの年齢合計
-SELECT SUM(age) FROM users;
-```
-
-## AVG
-数値カラムの平均を取得します。
-```sql
--- 全ユーザーの平均年齢
-SELECT AVG(age) FROM users;
-```
-
-## MAX / MIN
-最大値・最小値を取得します。
-```sql
--- 最年長・最年少のユーザーの年齢
-SELECT MAX(age), MIN(age) FROM users;
+-- 複数行を一括挿入
+INSERT INTO employees (name, dept, salary, hired_at)
+VALUES
+    ('佐藤花子', '開発', 400000, '2024-04-01'),
+    ('鈴木一郎', '人事', 320000, '2024-05-15');
 ```
 
 ---
+## 2. READ（データの取得）
 
-# グループ化（GROUP BY）
-`GROUP BY` 句を使うと、指定したカラムの値ごとにデータをまとめて集計できます。
-
-## 基本構文
+**基本の SELECT**
 ```sql
-SELECT カラム名, 集計関数
-FROM テーブル名
-GROUP BY カラム名;
+-- 全列取得
+SELECT * FROM employees;
+
+-- 特定の列だけ取得
+SELECT name, salary FROM employees;
+
+-- 条件付き（WHERE）
+SELECT * FROM employees WHERE dept = '開発';
+
+-- 並び替え（ORDER BY）
+SELECT * FROM employees ORDER BY salary DESC;
+
+-- 件数制限（LIMIT）
+SELECT * FROM employees ORDER BY hired_at DESC LIMIT 5;
 ```
 
-## 使用例
+**よく使う比較・論理演算子**
 ```sql
--- 都市ごとのユーザー数を集計
-SELECT city, COUNT(*) AS user_count
-FROM users
-GROUP BY city;
+WHERE salary >= 300000                  -- 比較
+WHERE dept IN ('営業', '開発')           -- 複数値マッチ
+WHERE name LIKE '田中%'                 -- 前方一致
+WHERE hired_at BETWEEN '2024-01-01'
+                 AND '2024-12-31'       -- 範囲指定
+WHERE dept = '開発' AND salary > 350000 -- AND条件
+WHERE dept = '営業' OR dept = '人事'    -- OR条件
+WHERE email IS NULL                     -- NULLチェック
 ```
 
+**テーブル結合（JOIN）**
 ```sql
--- 部署ごとの平均給与を集計
-SELECT department, AVG(salary) AS avg_salary
+-- 部署テーブルと内部結合
+SELECT e.name, d.dept_name, e.salary
+FROM employees e
+INNER JOIN departments d ON e.dept_id = d.id;
+
+-- LEFT JOINは右側にデータがなくてもNULLで返す
+SELECT e.name, p.project_name
+FROM employees e
+LEFT JOIN projects p ON e.id = p.leader_id;
+```
+
+---
+## 3. UPDATE（データの更新）
+```sql
+-- 特定の行を更新
+UPDATE employees
+SET salary = 380000
+WHERE name = '田中太郎';
+
+-- 条件に合う複数行を一括更新
+UPDATE employees
+SET salary = salary * 1.05
+WHERE dept = '開発';
+```
+
+> **注意:** `WHERE` を忘れると全行が更新されるため、必ず条件を指定してください。
+
+---
+## 4. DELETE（データの削除）
+```sql
+-- 条件に合う行を削除
+DELETE FROM employees WHERE id = 3;
+
+-- 全行削除（テーブル構造は残る）
+DELETE FROM employees;
+```
+
+> **注意:** UPDATE と同様、`WHERE` を忘れると全行が消えます。
+
+---
+## 5. 集計関数・句（Aggregate）
+
+**主要な集計関数**
+```sql
+SELECT
+    COUNT(*)        AS 全件数,
+    COUNT(DISTINCT dept) AS 部署数,
+    SUM(salary)     AS 給与合計,
+    AVG(salary)     AS 給与平均,
+    MAX(salary)     AS 最高給与,
+    MIN(salary)     AS 最低給与
+FROM employees;
+```
+
+**GROUP BY + HAVING**
+```sql
+-- 部署ごとの集計（3人以上の部署のみ）
+SELECT
+    dept,
+    COUNT(*)   AS 人数,
+    AVG(salary) AS 平均給与
 FROM employees
-GROUP BY department;
+GROUP BY dept
+HAVING COUNT(*) >= 3
+ORDER BY 平均給与 DESC;
 ```
 
-`GROUP BY` で指定していないカラムを `SELECT` に含める場合は、必ず集計関数で囲む必要があります。
+---
+## 6. SQL の処理順序
+
+書く順序と処理される順序は異なります。
+
+```
+処理順:  FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT
+記述順:  SELECT → FROM → WHERE → GROUP BY → HAVING → ORDER BY → LIMIT
+```
+
+WHEREは「集計前に行を絞る」、HAVINGは「集計後に結果を絞る」と覚えておくのがポイントです。
 
 ---
+## 7. 組み合わせた実践例
+```sql
+-- 部署別・年別の採用人数と平均給与（2名以上採用した組み合わせのみ）
+SELECT
+    dept,
+    strftime('%Y', hired_at) AS hire_year,
+    COUNT(*)                 AS hire_count,
+    AVG(salary)              AS avg_salary
+FROM employees
+WHERE hired_at IS NOT NULL
+GROUP BY dept, hire_year
+HAVING COUNT(*) >= 2
+ORDER BY hire_year, dept;
+```
 
+---
 # グループ化後の絞り込み（HAVING）
 `WHERE` 句はグループ化の前に行数を絞り込みますが、`HAVING` 句はグループ化した後の集計結果に対して条件を指定します。
 
@@ -214,12 +209,3 @@ WHERE age >= 30
 GROUP BY city
 HAVING COUNT(*) >= 5;
 ```
-
-## SELECT文の実行順序
-SQLは記述順ではなく、以下の順序で処理されます。
-
-```
-FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY
-```
-
-この順序を意識すると、どの句でどの絞り込みを行うべきかが分かりやすくなります。
